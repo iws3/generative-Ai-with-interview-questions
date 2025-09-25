@@ -1,6 +1,7 @@
-NameName: Delsy Kinyuy
-Exercise: 1 - Hello LLM Endpoint
-Challenges: 
-- Installing transformers took some time
-- Model download was large on first run
- Needed to adjust max_length to avoid errors
+Name: Delsy Kinyuy
+Exercise: 3 - Sentiment Analysis API
+Challenges:
+- Model loads fast, but first run needed internet to fetch weights
+- Sentiment labels limited to POSITIVE/NEGATIVE (no neutral)
+- Sarcasm detection is tricky, outputs can be misleading
+
