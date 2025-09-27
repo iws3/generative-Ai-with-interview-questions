@@ -1,0 +1,15 @@
+langchain_chroma
+fastapi
+uvicorn
+pydantic
+python-multipart 
+transformers
+torch
+langchain
+langchain_community  
+diffusers
+accelerate
+safetensors
+Pillow
+python_dotenv
+streamlit

@@ -1,6 +1,0 @@
-Name: Selamo Allen Leinyuy
-
-Problems Faced
-My first problem was getting a model from Hugging face and using in my Fastapi code
-The Second was linking fastapi endpoint to my frontend
-I was receiving some issues showing my fastapi code was running on a different port while i used a different one in the frontend
