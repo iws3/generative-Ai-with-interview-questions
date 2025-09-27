@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+torch
+transformers
+python-multipart
+Pillow
+langchain
+chromadb
+sentence-transformers
+pydantic
+langchain-community
+faiss-cpu
+wikipedia-api
+diffusers
