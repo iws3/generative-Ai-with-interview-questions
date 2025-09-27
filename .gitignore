@@ -1,3 +1,7 @@
+# This file specifies intentionally untracked files that Git should ignore.
+# It helps keep the repository clean by excluding temporary files, build artifacts,
+# and environment-specific configurations.
+
 __pycache__/
 *.pyc
 *.log
