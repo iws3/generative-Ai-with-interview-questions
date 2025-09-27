@@ -1,0 +1,5 @@
+NameName: Delsy Kinyuy
+Exercise: 1 - Hello LLM Endpoint
+Challenges: 
+- Installing transformers took some time
+- Model download was large on first run
