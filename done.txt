@@ -1,0 +1,37 @@
+Name: Bongmoyong Gad Fomonyuy
+Exercise done: Exercise 1(Hello LLM Endpoint)
+Challenges faced
+1. I was trying to test the endpoints testable both from code and browser so i was instead using
+the GET method instead of POST so the it was only giving me 405 eror which said
+method not allowed
+2. The Token limit, generation settings, and model size affected the performance and usability
+
+
+Name: Bongmoyong Gad Fomonyuy
+Exercise done: Exercise 2(Text summarizer API)
+Challenges faced
+1. The model used facebook/bart-large-cnn is not really summarizing the 
+text, it's rather making it short by taking just the first
+sentences from the original text
+
+Name: Bongmoyong Gad Fomonyuy
+Exercise done: Exercise 3(Sentiment Analysis API)
+Challenges faced
+I wanted to add more than one statement to judge the sentiments but
+but i was rather trying to use an array and not importing list from
+typing library. I didn't face many difficulties because it was similar to 
+what was done in class
+
+
+Name: Bongmoyong Gad Fomonyuy
+Exercise done: Exercise 4(Multimodal Image Captioning)
+Challenges faced
+I was rather using the GET and not the POST to upload image and also when i used 
+the POST i wasn't able to upload until i had to use the 
+localhost:8000/docs
+
+
+Name: Bongmoyong Gad Fomonyuy
+Exercise done: Exercise 5(rag-query)
+Challenges faced
+The hugging face model is hallucinating when i give a query
