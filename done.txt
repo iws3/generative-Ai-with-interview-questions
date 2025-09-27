@@ -1,0 +1,7 @@
+Name: Delsy Kinyuy
+Exercise: 3 - Sentiment Analysis API
+Challenges:
+- Model loads fast, but first run needed internet to fetch weights
+- Sentiment labels limited to POSITIVE/NEGATIVE (no neutral)
+- Sarcasm detection is tricky, outputs can be misleading
+
