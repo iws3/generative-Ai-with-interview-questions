@@ -1,0 +1,14 @@
+1- Model routing? Automatically sending queries to the right AI tool based on content.
+
+2- Intent detection? Using keyword matching, ML classifiers, or rule-based logic.
+
+3- RAG vs LLM decision? RAG for specific facts/knowledge, LLM for general conversation.
+
+4- Risks of routing? Wrong routing, cascading failures, increased latency.
+
+5- Logging & tracing? Track which route was chosen, response times, success rates.
+
+6- Evaluation metrics? Response accuracy, user satisfaction, routing accuracy, latency.
+
+7- Enterprise scaling? Load balancing, caching, circuit breakers, monitoring.
+
