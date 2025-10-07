@@ -10,16 +10,16 @@ class IntelligentChat:
         self.image_keywords= ['image', 'picture', 'photo', 'analyze this', 'whatis in this']
         self.research_keywords = ['research', 'what is ', 'who is', 'explain', 'tell me about']
 
-        def route_query(self, query:str, has_image:bool=False):
-            """Simple but effective routing logic"""
+    def route_query(self, query:str, has_image:bool=False):
+         """Simple but effective routing logic"""
 
-            # Priority 1: Image queries
-            if has_image:
-                return "image_analysis"
-            # Prioroty 2: Research /Knowlwedge queries
-            query_lower=query.lower()
-            if any(keyword in query_lower for keyword in self.research_keywords):
-                return "research"
+        # Priority 1: Image queries
+        if has_image:
+            return "image_analysis"
+        # Prioroty 2: Research /Knowlwedge queries
+        query_lower=query.lower()
+        if any(keyword in query_lower for keyword in self.research_keywords):
+            return "research"
         # Default: General LLM chat
         return "general_chat"
     
