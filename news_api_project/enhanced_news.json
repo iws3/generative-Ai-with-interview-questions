@@ -1,0 +1,20 @@
+{
+    "enhanced_news": [
+        {
+            "title": "Dummy News Article",
+            "description": "This is a dummy description because real news could not be fetched.",
+            "content": "This is dummy content. The API key for NewsData.io is likely invalid or has expired. Please check your NewsData.io API key and try again.",
+            "ai_summary": "Dummy summary: API key issue.",
+            "ai_sentiment": {
+                "label": "neutral",
+                "score": 0.0
+            },
+            "ai_topics": [
+                "dummy",
+                "api key",
+                "error"
+            ],
+            "ai_credibility_assessment": "Dummy assessment: Cannot verify due to API error."
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+# This file lists all the Python package dependencies for the entire project.
+# These packages are required to run all the assignments and exercises.
+# To install these dependencies, navigate to the project root directory in your terminal
+# and run: pip install -r requirements.txt
+
+fastapi
+uvicorn
+torch
+transformers
+python-multipart
+Pillow
+langchain
+chromadb
+sentence-transformers
+pydantic
+langchain-community
+faiss-cpu
+wikipedia-api
+diffusers
+python-dotenv
