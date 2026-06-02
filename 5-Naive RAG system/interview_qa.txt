@@ -1,0 +1,13 @@
+1- What is RAG? Giving models access to up-to-date, specific information they weren't trained on.
+
+2- Embeddings? Numbers that capture meaning. Similar texts have similar number patterns.
+
+3- Why Chroma? Lightweight, simple vector database perfect for learning and prototyping.
+
+4- Cosine similarity? Measures how similar two vectors are. Used to find the most relevant documents.
+
+5- Update knowledge? Add new documents to the vector store. The retriever will automatically include them.
+
+6- Risk of irrelevant docs? The model might use wrong information. Need good retrieval filtering.
+
+7- RAG vs fine-tuning? RAG adds knowledge without retraining. Fine-tuning teaches new skills/styles.

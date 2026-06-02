@@ -1,0 +1,19 @@
+1- What is FAISS? Facebook's AI Similarity Search - a library for fast vector search, especially with large datasets.
+
+2- Why fast? Uses optimized C++ code and advanced indexing algorithms that pre-organize vectors for quick searching.
+
+3- Indexing methods:
+
+IVF (Inverted File Index): Groups similar vectors into buckets
+
+HNSW (Hierarchical Navigable Small World): Creates a network for efficient navigation
+
+4- Billions of vectors? Uses compression and distributed search across multiple machines.
+
+5- FAISS vs Chroma: FAISS is faster for large datasets, Chroma is easier for prototyping with built-in storage.
+
+6- ANN search: Approximate Nearest Neighbor - finds "good enough" matches much faster than exact search.
+
+7- Evaluation: Use metrics like recall@k (how often the true match is in top k results).
+
+8- Production deployment: Run as a separate service, use GPU acceleration, and implement caching.

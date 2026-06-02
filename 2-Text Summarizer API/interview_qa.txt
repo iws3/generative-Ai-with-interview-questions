@@ -1,0 +1,13 @@
+1-Abstractive vs Extractive? Extractive copies important sentences. Abstractive writes new sentences to capture the meaning (like a human). BART is abstractive.
+
+2- Why is BART good for this? It's an encoder-decoder model trained to reconstruct corrupted text, which is perfect for tasks like summarization.
+
+3- Encoder-Decoder? The encoder reads and understands the input text. The decoder uses that understanding to write a new sequence (the summary).
+
+4- Beam Search? A search strategy that keeps several likely options open instead of just picking the next best word. Can lead to better, more coherent summaries.
+
+5- Hallucinations? When the model generates information that isn't in the source text. A major risk in summarization. Leads to inaccuracy
+
+6- ROUGE/BLEU? Metrics to compare a machine-generated summary to a human-written one. They measure overlap of words and phrases.
+
+7- Fine-tuning on legal docs? You would collect a dataset of legal documents and their human-written summaries, then continue training the model on this specific data.

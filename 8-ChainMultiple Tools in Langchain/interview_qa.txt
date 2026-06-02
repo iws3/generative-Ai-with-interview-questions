@@ -1,0 +1,13 @@
+1- Tool chaining? Connecting multiple AI tools so output from one becomes input to the next.
+
+2- Why combine tools? Creates more powerful applications than any single tool alone.
+
+3- Challenges? Error handling, latency, data format mismatches, cost management.
+
+4- Orchestration vs composition? Orchestration = smart workflow management; Composition = simple tool connections.
+
+5- Handle failures? Implement retries, fallbacks, and circuit breakers.
+
+6- What is LangChain? A framework that makes it easier to chain AI components together.
+
+7- Monitor latency? Track time for each step, set timeouts, use monitoring tools.

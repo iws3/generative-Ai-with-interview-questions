@@ -1,0 +1,13 @@
+1- Transfer Learning? Training a model on a general task (like language understanding) then fine-tuning it for a specific task (like sentiment). Much faster than training from scratch.
+
+2- DistilBERT vs BERT? DistilBERT is 40% smaller but retains 97% of BERT's performance. Faster and cheaper to run.
+
+3-SST-2? A standard benchmark dataset of movie reviews labeled as positive or negative.
+
+4-Embeddings? Numbers that represent the meaning of words. The model converts your text into embeddings to understand it.
+
+5-Evaluation? Accuracy, precision, recall, F1-score. For sentiment: how often is it correct?
+
+6-Biases? If trained mostly on movie reviews, it might perform poorly on technical texts or miss cultural context.
+
+7- Sarcasm? Very hard for models. Requires deep context understanding. Often needs additional context or specialized training.

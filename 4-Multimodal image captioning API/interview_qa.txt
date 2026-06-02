@@ -1,0 +1,13 @@
+1- How does ViT process images? It splits images into patches (like puzzle pieces) and processes them like a language model processes words.
+
+2- GPT-2's role? It takes the image understanding from ViT and generates a coherent sentence description.
+
+3- Why combine vision + language? ViT understands what's in the image, GPT-2 knows how to describe it naturally.
+
+4- Captioning datasets? COCO - contains images with multiple human-written captions.
+
+5- Challenges? Handling fine details, counting objects accurately, understanding abstract concepts.
+
+6- Evaluation metrics? BLEU (word overlap), CIDEr (considers human-like relevance).
+
+7- Real-world apps? Accessibility (describing images for visually impaired), social media auto-alt-text, surveillance systems.

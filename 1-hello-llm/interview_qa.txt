@@ -1,0 +1,14 @@
+1-What is a language model? A program that predicts the next most likely word (token) in a sequence.
+
+2-GPT-2 vs GPT-3/4? GPT-3/4 are much larger, trained on more data, and smarter. distilgpt2 is a simplified GPT-2.
+
+3-Why is distilgpt2 lightweight? It's a "distilled" version—a smaller model trained to imitate the bigger one. Fewer parameters = faster, less memory.
+
+4-What are tokens? Words or pieces of words the model understands. The model thinks in tokens, not full words.
+
+5-Prompt length limits? Models have a max token limit. We use max_length to control the output. If the prompt is too long, you must shorten it.
+
+6-API vs CLI? An API lets other programs (like a website or app) use your model easily. A CLI is just for you on your computer.
+
+7-Risk without moderation? The model might generate bad, biased, or private information from its training data. You need filters.
+

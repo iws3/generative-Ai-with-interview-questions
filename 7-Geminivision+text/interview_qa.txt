@@ -1,0 +1,13 @@
+1-What is VQA? Visual Question Answering - asking questions about images and getting text answers.
+
+2-BLIP-2 vision+text alignment? Uses a visual encoder to understand images, then a language model to generate answers.
+
+3-Frozen LLM role? The language model is pre-trained and not updated during vision training - it just learns to use visual inputs.
+
+4-Beneficial tasks? Medical imaging, autonomous vehicles, accessibility, e-commerce, content moderation.
+
+5-Challenges? Aligning different data types, handling ambiguous images, computational complexity.
+
+6-Evaluation? Accuracy on benchmark datasets, human evaluation, task-specific metrics.
+
+7-Industries needing it? Healthcare, retail, automotive, security, social media, education.
