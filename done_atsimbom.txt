@@ -1,0 +1,37 @@
+---------------------------------------------------
+            MOKENYU ATSIMBOM GWE
+---------------------------------------------------
+
+MAJOR CHALLENGE: Downloading these HF models into my local machine consumed a lot of mobile data so for a cost-effective choice, I decided to complete each exercise using google colab, There, I served FastAPI apps using ngrok which creates a temporary link that hosts the app. HF models were also easily downloaded with little mobile data used.
+
+EXERCISE 1 - Hello LLM Endpoint:
+
+Challenges:
+
+- Trying to use model: While trying to use the distilgpt2 HF model, at first, I put the model name where the task(e.g. sentiment-analysis) was supposed to go. I received a runtime error from pipeline showing a list of tasks that can be used and model names were not among. 
+  What I did next was I hovered over the pipeline function and got a brief overview of the documentation(docsting) where I saw how to use the model, which is thanks to PyLance, and also other parameters that pipeline() can take..
+- "text-generation" vs "text2text-generation": These are the two tasks I decided to use for this exercise but one of them proved to be useless. I realized when I used "text2text-generation" that it wasnt compatible with the distilgpt2 HF model because of it's a decoder only model and "text2text-generation" requires encoder-decoder models. 
+  "text-generation" is a decoder task so it was perfect for distilgpt2.
+- Changing uvicorn port: Using "--port 0" option hosts on a port not in use. Specifying the port to be used is also an option.
+
+
+EXERCISE 2 - Text Summarizer API:
+
+Challenges:
+
+- Using sequence-to-sequence summarization: It was easy finding the task name for this which is just "summarization" but not as easy to use it. I later found out it took arguments like max_length and min_length(maximum and minimum length of the summary respectively) and others which were passed to an instance of the pipeline.
+- Entering data in JSON on swagger: When I tried pasting my long text the first time, it had enter characters and other symbols which python returned as an error because they didn't fit the JSON format. So I changed every enter into \n and got rid of troublesome symbols.
+
+
+EXERCISE 3 - Sentiment Analysis API:
+
+Challenges:
+
+- I thought the same task name "sentiment-analysis" used at the workstation will be the same used here but I found out that the task "text-classification" is used here along with the model "distilbert-base-uncased-finetuned-sst-2-english"
+
+
+EXERCISE 4 - Multimodal Image Captioning:
+
+Challenges:
+- I used the UploadFile and File objects from FastAPI library so the user could upload their photo
+- I didn't know how the "image-to-text" task worked so I had help from huggingface which showed me that the photo can be passed to an instance of the pipeline without needing to convert to ascii.
